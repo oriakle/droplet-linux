@@ -17,7 +17,7 @@ variable "droplet_region" {
 
 }
 
-variable "do_token_" {
+variable "do_token" {
   decription = "value"
 }
 
