@@ -5,7 +5,7 @@ data "digitalocean_ssh_key" "oriakle-dokey" {
 }
 
 # Creating a Digital Ocean Droplet
-resource "digitalocean_droplet" "oriakle-droplet" {
+resource "oriakle-droplet" "oriakle-droplet" {
   image    = var.image
   name     = var.droplet_name
   region   = var.droplet_region
