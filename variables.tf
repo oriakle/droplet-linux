@@ -8,7 +8,7 @@ variable "image" {
 
 variable "droplet_name" {
   type        = string
-  description = "name for our droplet"
+  description = "oriakle-droplet"
 }
 
 variable "droplet_region" {
