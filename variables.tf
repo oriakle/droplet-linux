@@ -17,6 +17,10 @@ variable "droplet_region" {
 
 }
 
+variable "do_token_" {
+  decription = "value"
+}
+
 variable "image_size" {
   type        = string
   description = "the disk size for our image"
